@@ -1,0 +1,147 @@
+/* Reset CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url('img/Group\ 512.png');
+}
+header span{
+  background:#FFD600;
+}
+nav{
+  margin: auto;
+  padding-top: 20px;
+  max-width: 1200px;
+}
+.nav-link{
+  display: flex;
+  justify-content: space-between;
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 45px;
+  justify-content: flex-end;
+  text-align: right;
+   
+}
+.navbar-nav{
+  justify-content: flex-end !important;
+}
+.navbar-collapse{
+  display: flex;
+  flex-direction: end;
+}
+.topo{
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.nav-link:hover{
+  color:#FFD600 !important;
+  transition: 500ms;
+}
+.futuro{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.futuro h1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 120%;
+  text-align: left;
+  line-height: 1.5;
+  color: #fff;
+
+}
+.futuro span{
+  margin-left: 13px;
+}
+.futuro h2{
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 22px;
+  margin-left: -30px;
+  }
+
+.logo-apps{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.iphone{
+  margin-bottom: -100px;
+}
+
+
+/* COMO FUNCIONA */
+
+.como-funciona{
+  padding-top: 170px;
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.como-funciona h3{
+  margin-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 45px;
+  color: #1169FE;
+  
+}
+.como-funciona h3::before{
+  content: '';
+  width: 30px;
+  height: 7px;
+  background: #FFD600;
+  position: absolute;
+  margin-top: 40px;
+
+}
+
+.como-funciona p{
+  margin-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.como-funciona a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.como-funciona a:hover{
+  color: #FFD600;
+  transition: 200ms;
+  text-decoration: none;
+}
+
+.como-funciona img{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 25px;
+}
+.botton{
+  max-width: 1200px;
+  background: #116AFE;
+}
