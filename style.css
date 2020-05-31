@@ -161,6 +161,32 @@ nav{
     line-height: 45px;
     text-align: center;
 }
-.botton img {
+footer{
+  display: flex;  
+  align-items: center;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex h5{
   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.flex i{
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+}
+.flex a{
+  color: #000;
+}
+.flex span{
+  font-family: 'DM Mono', monospace;
 }
